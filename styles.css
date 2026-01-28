@@ -1,0 +1,281 @@
+
+/* RESET – CỰC QUAN TRỌNG */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* BANNER */
+.banner {
+  background: url("img/1gocbaclieu.jpg") center/cover no-repeat;
+  height: 80vh;        /* giống mẫu: rất cao */
+  width: 100%;
+  position: relative;
+}
+
+/* CHỮ TRÊN BANNER */
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+
+  /* XÓA NỀN + VIỀN */
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.banner-text p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+
+  background: none;
+  padding: 0;
+}
+
+
+/* SLOGAN */
+.slogan {
+  background: #d9d9d9;
+  padding: 40px 0;
+}
+
+.slogan .row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.slogan .block_3 {
+  width: 30%;
+  text-align: center;
+}
+
+
+/* ===== CONTENT ===== */
+.content {
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2E86AB;
+}
+
+/* GIỚI THIỆU */
+.about {
+  display: flex;
+  flex-direction: column;   /* xếp dọc */
+  align-items: center;      /* căn giữa */
+  text-align: center;
+}
+.about img {
+  max-width: 45%;
+  border-radius: 10px;
+}
+
+/* NỀN SÁNG */
+.bg-light {
+  background-color: #f5f9fc;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+/* IMAGE BOX */
+.image-box {
+  max-width: 800px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.image-box h3 {
+  color: #4CAF50;
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery figure {
+  width: 800px;          /* tăng kích thước */
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.gallery figcaption {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.food-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.food-section img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.food-section h1 {
+  font-size: 38px; /* to hơn bình thường */
+  margin-bottom: 8px;
+}
+
+.food-section .subtitle {
+  font-size: 18px;
+  color: #555;
+  font-style: italic;
+}
+
+.food-list {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.food-item {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 35px;
+  align-items: center;
+}
+
+.food-item img {
+  width: 260px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.food-text h2 {
+  color: #2E86AB;
+  margin-bottom: 8px;
+}
+
+.food-text p {
+  line-height: 1.6;
+  text-align: justify;
+  color: #333;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.page-slogan {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  text-align: center;
+  color: green;
+  margin: 40px 0 15px;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.ending {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.ending h2 {
+  color: #1e88e5;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.ending p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.student-info {
+  background-color: #e0e0e0; /* xám nhẹ */
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.student-info p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.student-info strong {
+  color: #000;
+}
