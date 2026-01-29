@@ -279,3 +279,23 @@ body {
 .student-info strong {
   color: #000;
 }
+
+h2:hover {
+  color: red;          /* đổi màu chữ */
+  font-size: 28px;     /* chữ to hơn */
+  font-weight: bold;  /* đậm */
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.food-text h2:hover {
+  color: #ff6600;
+  transform: scale(1.05); /* phóng to nhẹ */
+}
+
+.food-text h2 {
+  transition: 0.3s;
+}
